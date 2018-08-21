@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://fit-bannerstones.github.io/amnh-4/haba_dm_1489a/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "AMNH DM/1489a",
+  "description": "View of bannerstone, accession number DM/1489, from the collection of the American Museum of Natural History. This image has been collected as part of the FIT Archaic Bannerstone Project (bannerstone.fitnyc.edu).",
+  "thumbnail": "https://fit-bannerstones.github.io/amnh-4/images/haba_dm_1489a-1/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://fit-bannerstones.github.io/amnh-4/haba_dm_1489a/sequence/default.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://fit-bannerstones.github.io/amnh-4/haba_dm_1489a/canvas/front.json",
+          "label": "front",
+          "width": 4200,
+          "height": 2800,
+          "thumbnail": "https://fit-bannerstones.github.io/amnh-4/images/haba_dm_1489a-1/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://fit-bannerstones.github.io/amnh-4/haba_dm_1489a/annotation/front.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://fit-bannerstones.github.io/amnh-4/images/haba_dm_1489a-1/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://fit-bannerstones.github.io/amnh-4/images/haba_dm_1489a-1",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4200,
+                "height": 2800
+              },
+              "on": "https://fit-bannerstones.github.io/amnh-4/haba_dm_1489a/canvas/front.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
